@@ -4,7 +4,7 @@ use warnings;
 use Config ();
 
 # ABSTRACT: Perl bindings to NSS Mozilla security library
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 require XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
@@ -30,7 +30,7 @@ Panda::NSS - Perl bindings to NSS Mozilla security library
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

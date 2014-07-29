@@ -2,7 +2,7 @@ NAME
     Panda::NSS - Perl bindings to NSS Mozilla security library
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
       # verify certificate

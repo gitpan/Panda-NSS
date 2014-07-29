@@ -32,7 +32,7 @@ no_index:
 provides:
   Panda::NSS:
     file: lib/Panda/NSS.pm
-    version: '0.001'
+    version: '0.002'
 requires:
   XSLoader: '0'
   perl: '5.006'
@@ -42,5 +42,5 @@ resources:
   bugtracker: https://github.com/vovkasm/perl-Panda-NSS/issues
   homepage: https://github.com/vovkasm/perl-Panda-NSS
   repository: https://github.com/vovkasm/perl-Panda-NSS.git
-version: '0.001'
+version: '0.002'
 x_authority: cpan:VOVKASM
