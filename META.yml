@@ -1,0 +1,46 @@
+---
+abstract: 'Perl bindings to NSS Mozilla security library'
+author:
+  - 'Vladimir Timofeev <vovkasm@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  File::Spec: '0'
+  File::Spec::Functions: '0'
+  File::Temp: '0'
+  List::Util: '0'
+  Scalar::Util: '0'
+  Test::More: '0'
+  Test::SharedFork: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+  PkgConfig: '0.08320'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Panda-NSS
+no_index:
+  directory:
+    - t
+    - xt
+    - examples
+    - corpus
+  package:
+    - DB
+provides:
+  Panda::NSS:
+    file: lib/Panda/NSS.pm
+    version: '0.001'
+requires:
+  XSLoader: '0'
+  perl: '5.006'
+  strict: '0'
+  warnings: '0'
+resources:
+  bugtracker: https://github.com/vovkasm/perl-Panda-NSS/issues
+  homepage: https://github.com/vovkasm/perl-Panda-NSS
+  repository: https://github.com/vovkasm/perl-Panda-NSS.git
+version: '0.001'
+x_authority: cpan:VOVKASM
